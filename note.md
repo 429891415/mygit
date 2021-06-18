@@ -13,7 +13,7 @@
 配置path： D:\\..\git\bin  
 
 配置git: 用户名和邮箱   
- 
+
 + 右键-git bash
 + `git config --global user.name "name"`    
 + `git config --global user.email "xxx@xxx.xxx"`  
@@ -25,7 +25,7 @@
 ----------
 
 搭建git服务器（远程仓库）： [github.com](https://github.com "github")  
- 
+
 -----------
 
 
@@ -35,12 +35,12 @@
 
 +  配置ssh：先在本地配置，发送给远程
 
-+  现在本地生成ssh：
++  先在本地生成ssh：
  `ssh-keygen -t rsa -C xxx@qq.com`   一直回车  直到出现字符图画
 + 发送给远程：  
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;***github里 - settings - SSH and ... - New SSH  - title任意、key中输入*** 
-  
+
 + 刚才在本地生成的ssh：  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将本地刚才生成的ssh内容复制到远程的Key中:`C:/xxx/.ssh/id_rsa.pub`
@@ -73,7 +73,7 @@ Clone or download->`https://github.com/xxx/xxxx.git`
 
 ## 提交(本地-远程)
 (在当前工作目录 右键-git bash)
-`git add.`
+`git add .`
 `git commit -m "提交到分支"`
 `git push  origin master`
 
@@ -155,5 +155,4 @@ github中 该项目 -settings
 
 
 合作伙伴： 打开该链接、接受邀请 :合作开发....clone项目、修改、add \commit\push
-
 
